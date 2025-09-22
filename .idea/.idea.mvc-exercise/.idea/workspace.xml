@@ -4,18 +4,44 @@
     <projectFile profileName="http">mvc-exercise/mvc-exercise.csproj</projectFile>
     <projectFile profileName="https">mvc-exercise/mvc-exercise.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="488e5d7d-a8ae-4269-9a2c-2d5a4a5b1516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mvc-exercise/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-exercise/Controllers/ProductController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-exercise/Data/IProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-exercise/Data/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-exercise/Models/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc-exercise/Views/Product/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mvc-exercise-proj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mvc-exercise/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mvc-exercise/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mvc-exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mvc-exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/mvc-exercise.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/mvc-exercise.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/mvc-exercise.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/mvc-exercise.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/mvc-exercise.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/mvc-exercise.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -27,10 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.mvc-exercise: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758575604772</updated>
-      <workItem from="1758575605767" duration="67000" />
+      <workItem from="1758575605767" duration="2982000" />
     </task>
     <servers />
   </component>
