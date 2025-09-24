@@ -18,4 +18,10 @@ public class ProductController : Controller
         var products = _repository.GetAllProducts();
         return View(products);
     }
+
+    public IActionResult ViewProduct(int id)
+    {
+        var product = _repository.GetProduct(id);
+        return View(product);
+    }
 }

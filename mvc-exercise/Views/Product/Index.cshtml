@@ -1,6 +1,7 @@
 @model IEnumerable<Product>
 
 <h2>Products</h2>
+
 <table class="table">
     <tr>
         <th>ID</th>
@@ -14,7 +15,7 @@
     @foreach (var product in Model)
     {
         <tr>
-            <td>@product.ProductId</td>
+            <td><a href="Product/ViewProduct/@product.ProductId">@product.ProductId</a></td>
             <td>@product.Name</td>
             <td>@product.Price</td>
             <td>@product.CategoryId</td>
