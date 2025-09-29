@@ -3,21 +3,25 @@
 <h2>@Model.Name Information</h2>
 
 <table class="table">
-<tr>
-    <th>ID</th>
-    <th>NAME</th>
-    <th>PRICE</th>
-    <th>CATEGORY ID</th>
-    <th>SALE</th>
-    <th>STOCK</th>
-</tr>
-<tr>
-    <td>@Model.ProductId</td>
-    <td>@Model.Name</td>
-    <td>@Model.Price</td>
-    <td>@Model.CategoryId</td>
-    <td>@Model.OnSale</td>
-    <td>@Model.StockLevel</td>
-</tr>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>PRICE</th>
+        <th>CATEGORY ID</th>
+        <th>SALE</th>
+        <th>STOCK</th>
+    </tr>
+    <tr>
+        <td>@Model.ProductId</td>
+        <td>@Model.Name</td>
+        <td>@Model.Price</td>
+        <td>@Model.CategoryId</td>
+        <td>@Model.OnSale</td>
+        <td>@Model.StockLevel</td>
+    </tr>
 
 </table>
+
+<div style="display: block">
+    <a href="/Product/UpdateProduct/@Model.ProductId">Update this Product</a>
+</div>
