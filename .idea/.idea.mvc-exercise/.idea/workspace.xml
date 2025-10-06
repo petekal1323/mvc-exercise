@@ -9,17 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488e5d7d-a8ae-4269-9a2c-2d5a4a5b1516" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mvc-exercise/Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc-exercise/Views/Product/InsertProduct.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mvc-exercise-proj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.mvc-exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mvc-exercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc-exercise/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Controllers/ProductController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc-exercise/Data/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Data/IProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc-exercise/Data/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Data/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc-exercise/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Models/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc-exercise/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Views/Product/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/obj/Debug/net9.0/mvc-exercise.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-exercise/Views/Product/ViewProduct.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-exercise/Views/Product/ViewProduct.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <workItem from="1758575605767" duration="3056000" />
       <workItem from="1758748305513" duration="1877000" />
       <workItem from="1759181634059" duration="2538000" />
-      <workItem from="1759787000410" duration="1389000" />
+      <workItem from="1759787000410" duration="2248000" />
     </task>
     <servers />
   </component>
